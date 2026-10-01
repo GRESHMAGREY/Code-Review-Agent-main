@@ -53,3 +53,4 @@ Then either:
 - The sandbox currently runs build/test commands as a local subprocess, not inside an isolated Docker container — do not point this at untrusted code until that's swapped in.
 - Static analysis / SAST tool output (e.g. Semgrep) isn't generated automatically yet — the specialist prompts expect it as input, but nothing currently produces it.
 - `review-files` mode has no build/test/profiling context by design — it's static review only, and the final report says so explicitly.
+"# AI-code-review-agentVM" 
